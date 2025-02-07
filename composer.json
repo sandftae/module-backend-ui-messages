@@ -1,0 +1,19 @@
+{
+    "name": "sandftae/module-backend-ui-messages",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "A simple module that provides the same error handling for the admin area as for checkout",
+    "type": "magento2-module",
+    "keywords": ["magento2", "ui", "notification", "admin", "backend", "adminhtml", "messages"],
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sandftae\\BackendUiMessages\\": ""
+        }
+    }
+}
